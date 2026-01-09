@@ -123,7 +123,7 @@ class Commands {
 
 		// Clear WP Rocket cache.
 		if ( function_exists( 'rocket_clean_domain' ) ) {
-			rocket_clean_domain();
+			\rocket_clean_domain();
 		}
 
 		return new \WP_REST_Response(

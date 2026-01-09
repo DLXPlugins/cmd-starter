@@ -16,6 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Functions class.
  */
 class Enqueue {
+	/**
+	 * Run the enqueue actions.
+	 */
 	public function run() {
 		add_action( 'enqueue_block_editor_assets', array( $this, 'enqueue_block_editor_commands' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_commands' ) );
