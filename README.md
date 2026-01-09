@@ -2,6 +2,18 @@
 
 A WordPress plugin for starting a command palette plugin.
 
+## Available Starter Commands
+
+- Flush Permalinks
+- Clear Cache
+- Enable Plugins for Admins (Multisite)
+
+Commands run in the:
+- Block Editor
+- Admin Panel
+- Network Admin Panel
+- Frontend
+
 ## Development
 
 ### Requirements
