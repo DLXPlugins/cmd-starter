@@ -4,8 +4,8 @@
   "description": "A WordPress plugin for starting a command palette plugin.",
   "main": "index.js",
   "scripts": {
-    "build": "wp-scripts build",
-    "start": "wp-scripts start",
+    "build": "wp-scripts build  --env mode=production",
+    "start": "wp-scripts start --mode=development",
     "lint:js": "wp-scripts lint-js",
     "lint:css": "wp-scripts lint-style",
     "format": "wp-scripts format",
