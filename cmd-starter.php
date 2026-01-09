@@ -35,9 +35,12 @@ if ( file_exists( CMD_STARTER_PATH . 'vendor/autoload.php' ) ) {
 /**
  * Initialize the plugin.
  */
-function init() {
-	// Initialize Functions class.
-	$functions = new includes\Functions();
-	$functions->init();
+function plugins_loaded() {
+	$enqueue = new Enqueue();
+	$enqueue->run();
+
+	// Initialize Commands class.
+	$commands = new Commands();
+	$commands->run();
 }
-add_action( 'plugins_loaded', __NAMESPACE__ . '\init' );
+add_action( 'plugins_loaded', __NAMESPACE__ . '\plugins_loaded' );

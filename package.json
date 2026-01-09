@@ -8,8 +8,15 @@
     "start": "wp-scripts start",
     "lint:js": "wp-scripts lint-js",
     "lint:css": "wp-scripts lint-style",
-    "format": "wp-scripts format"
+    "format": "wp-scripts format",
+	"zip": "wp-scripts plugin-zip"
   },
+  "files": [
+    "build",
+    "vendor",
+	"cmd-starter.php",
+	"php"
+  ],
   "keywords": [
     "wordpress",
     "plugin",
