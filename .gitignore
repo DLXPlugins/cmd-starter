@@ -143,3 +143,5 @@ vendor/
 
 # WordPress scripts build output
 build/
+
+cmd-starter.zip
