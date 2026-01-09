@@ -2,6 +2,9 @@
 
 A WordPress plugin for starting a command palette plugin.
 
+![dlx-flush-permalinks](https://github.com/user-attachments/assets/4fdadb5e-5cc1-4f2e-8872-6476cee5183b)
+
+
 ## Available Starter Commands
 
 - Flush Permalinks
